@@ -1,20 +1,41 @@
 "use strict"
-let texto1 = document.getElementById("t1");
-let texto2 = document.getElementById("t2");
-let texto3 = document.getElementById("t3");
 
 
-function trocar(){
-    texto1.innerHTML="ohh Tá duvidar";
-    texto2.innerText ="Novo Textucuna";
-    texto3.innerText = "Leocaldio";
-}
+const todas_divs = document.querySelector("#pai")
 
-let n1 =[12,2,3,2]
-let n2 =[3,4,5,6,7,8,9]
+console.log(todas_divs.childNodes)
 
-let res =[n1,n2]
-let res1 =[...n1,...n2]
 
-console.log(res)
-console.log(res1)
+// todas_divs.map((el)=>{
+//     el.addEventListener("click",(evt)=>{
+//         const el = evt.target
+//             el.classList.add("destaque")
+//            console.log (el.id+" foi clicado")
+//     })
+// })
+
+
+
+// let val = [...document.querySelectorAll(".curso")]
+
+// console.log(val[2])
+
+
+
+
+// const divTodas = [...document.getElementsByTagName("div")]
+// const cursosTodos =[...document.getElementsByClassName("curso")]
+// const cursosc1 =[...document.getElementsByClassName("c1")]
+// const cursosc2 =[...document.getElementsByClassName("c2")]
+// const cursoEspecial = document.getElementById("c1")
+
+// const query_TodasDivs = document.querySelectorAll("div")
+
+
+// console.log(query_TodasDivs)
+
+// console.log(divTodas)
+// console.log(cursosTodos)
+// console.log(cursosc1)
+// console.log(cursosc2)
+// console.log(cursoEspecial)
