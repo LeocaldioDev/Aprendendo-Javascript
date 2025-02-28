@@ -2,8 +2,34 @@
 
 
 const todas_divs = document.querySelector("#pai")
+const cursos =["Html","Css","Javascript","Php","React Native","C#"]
 
-console.log(todas_divs.childNodes)
+cursos.map((el,posicao)=>{
+    const novoElemento = document.createElement("div")
+    novoElemento.setAttribute("id","c"+posicao)
+    novoElemento.setAttribute("class","curso c1")
+    novoElemento.innerHTML = el
+    todas_divs.appendChild(novoElemento)
+
+})
+
+const todas = [...document.querySelectorAll(".curso")]
+
+todas.map((el)=>{
+    el.addEventListener("click",(evt)=>{
+        const el = evt.target
+        el.classList.add("destaque")
+        console.log(el.id+" clicado")
+    })
+
+})
+
+
+
+
+
+
+
 
 
 // todas_divs.map((el)=>{
