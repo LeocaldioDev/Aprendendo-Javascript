@@ -1,3 +1,23 @@
+//Coleção set
+let elemento = document.getElementById("caixa")
+
+
+
+//---------------------------------------------------------------------------------------
+//Coleção Map
+// let elemento = document.getElementById("caixa")
+// let mapa = new Map()
+
+// mapa.set("angola","emaptou")
+// mapa.set("caboverde","ganhou")
+// mapa.set(1,"olá")
+// mapa.set(2,"esse")
+
+// for( v of mapa.keys())
+//     console.log(v)
+// console.log(mapa)
+
+
 
 // --------------------------------------------------------------------------------
 
