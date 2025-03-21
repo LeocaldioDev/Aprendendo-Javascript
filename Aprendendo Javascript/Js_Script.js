@@ -1,21 +1,48 @@
-const caixa=document.querySelector("#caixa")
 
-let cores=["azul","verde","vermelho",["claro","escuro","médio"]]
-let cursos=["HTML","CSS","Javascript",cores]
+// --------------------------------------------------------------------------------
 
-//cursos[0]=2023
+// const vect = 
+// [
+// (val)=>{
+//     let n = 0
+//     for(v of val){
+//         n+=v
+//     }
+//     return n
+// },
+// (val)=>{
+//     let n = 1
+//     for(v of val){
+//         n*=v
+//     }
+//     return n
+// }
+// ]
 
-// cursos.push("C++")
-// cursos.unshift("Python")
-// cursos.shift()
+// const  et =[1,4,3,2]
+// console.log(vect[1](et))
 
-console.log(cursos[3][3][2])
 
-cursos.map((el)=>{
-    let p=document.createElement("p")
-    p.innerHTML=el
-    caixa.appendChild(p)
-})
+// ----------------------------------------------------------------------------------
+
+// const caixa=document.querySelector("#caixa")
+
+// let cores=["azul","verde","vermelho",["claro","escuro","médio"]]
+// let cursos=["HTML","CSS","Javascript",cores]
+
+// //cursos[0]=2023
+
+// // cursos.push("C++")
+// // cursos.unshift("Python")
+// // cursos.shift()
+
+// console.log(cursos[3][3][2])
+
+// cursos.map((el)=>{
+//     let p=document.createElement("p")
+//     p.innerHTML=el
+//     caixa.appendChild(p)
+// })
 //----------------------------------------------------------------------------------------------------
 
 // const caixaCursos=document.querySelector("#caixaCursos")
