@@ -1,48 +1,56 @@
+
+//---------------------------------------------------------------------------------------
+let alguma = document.querySelector("")
+
+
+
+
+
 //---------------------------------------------------------------------------------------
 // Herança
-class carro{
-    constructor(nome,portas){
-        this.nome =nome
-        this.portas=portas
-        this.ligado =false
-        this.velocidade=0
-        this.cor=undefined
-    }
+// class carro{
+//     constructor(nome,portas){
+//         this.nome =nome
+//         this.portas=portas
+//         this.ligado =false
+//         this.velocidade=0
+//         this.cor=undefined
+//     }
 
-    ligar=function(){
-        this.ligado=true
-    }
-    desligar=function(){
-        this.ligado=false
-    }
-    setCor=function(cor){
-        this.cor=cor
-    }
-}
+//     ligar=function(){
+//         this.ligado=true
+//     }
+//     desligar=function(){
+//         this.ligado=false
+//     }
+//     setCor=function(cor){
+//         this.cor=cor
+//     }
+// }
 
-class Militar extends carro{
-  constructor(nome,portas,blindagem,municao)
-  {
-    super(nome,portas)
-    this.blindagem =blindagem
-    this.municao=municao
-    this.setCor("verde")
-  }
-  atirar=function(){
-    if(this.municao>0){
-        this.municao--
-    }
-  }
-
-
-}
+// class Militar extends carro{
+//   constructor(nome,portas,blindagem,municao)
+//   {
+//     super(nome,portas)
+//     this.blindagem =blindagem
+//     this.municao=municao
+//     this.setCor("verde")
+//   }
+//   atirar=function(){
+//     if(this.municao>0){
+//         this.municao--
+//     }
+//   }
 
 
-const c1 = new carro("Ferrari",4)
+// }
 
-console.log(`Nome: ${c1.nome}`)
 
-const c2 = new Militar("Tanque",4,100,200)
+// const c1 = new carro("Ferrari",4)
+
+// console.log(`Nome: ${c1.nome}`)
+
+// const c2 = new Militar("Tanque",4,100,200)
 
 
 
