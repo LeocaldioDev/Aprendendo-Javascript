@@ -1,9 +1,13 @@
 
+<<<<<<< HEAD
 //---------------------------------------------------------------------------------------
+=======
+>>>>>>> 284a039b64b8b9c226a3decd9ee4aa29c8ccbf16
 
 
 
 
+<<<<<<< HEAD
 //---------------------------------------------------------------------------------------
 // Herança
 // class carro{
@@ -155,6 +159,28 @@
 // }
 
 
+=======
+
+// const caixaCursos=document.querySelector("#caixaCursos")
+// const btn_c=[...document.querySelectorAll(".curso")]
+// const c1_2=document.querySelector("#c1_2")
+// const cursos=["HTML","CSS","Javascript","PHP","React","MySQL","ReactNative"]
+// const btnCursoSelecionado=document.getElementById("btnCursoSelecionado")
+// const btnRemoverCurso=document.getElementById("btnRemoverCurso")
+// const btnAdicionarNovoCursoAntes=document.getElementById("btnAdicionarNovoCursoAntes")
+// const btnAdicionarNovoCursoDepois=document.getElementById("btnAdicionarNovoCursoDepois")
+// const nomeCurso=document.getElementById("nomeCurso")
+
+// let indice=0
+
+// const tirarSelecao=()=>{
+//     const cursosSelecionados=[...document.querySelectorAll(".selecionado")]
+//     cursosSelecionados.map((el)=>{
+//         el.classList.remove("selecionado")
+//     })
+// }
+
+>>>>>>> 284a039b64b8b9c226a3decd9ee4aa29c8ccbf16
 // const criarNovoCurso=(curso)=>{
 //     const novoElemento=document.createElement("div")
 //     novoElemento.setAttribute("id","c"+indice)
